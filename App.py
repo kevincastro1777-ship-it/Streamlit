@@ -13,7 +13,7 @@ st.markdown("Este dashboard interactivo presenta un análisis detallado del rend
 @st.cache_data
 def load_data():
     # Recuerda cambiar esta ruta por la de tu archivo local si lo descargas
-    file_path = '/content/drive/MyDrive/Colab Notebooks/SalidaVentas.xlsx'
+    file_path = 'SalidaVentas.xlsx'
     return pd.read_excel(file_path)
 
 try:
